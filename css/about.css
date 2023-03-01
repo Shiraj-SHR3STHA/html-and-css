@@ -1,0 +1,52 @@
+
+.main{
+    width: 80%;
+    margin: auto;
+}
+.info{
+    margin-top: 5em;
+    display: flex;
+    flex-direction: row;
+}
+.us, .our_univ{
+    width: 100%;
+    margin: 1em;
+    padding: 1em;
+}
+.us{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    text-align: justify;
+}
+.us a{
+    text-decoration: none;
+    background-color: var(--primary);
+    color: white;
+    padding: .5em;
+    width: 35%;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+}
+.thought{
+    text-align: center;
+}
+.thought h2{
+    padding: 1em 0;
+}
+.round_image{
+    width: 7em;
+    margin: auto;
+}
+.round_image img{
+    border-radius: 50%;
+}
+.says{
+    width: 60%;
+    margin: auto;
+}
+.block{
+    gap: 1em;
+    padding: 1em 0;
+}

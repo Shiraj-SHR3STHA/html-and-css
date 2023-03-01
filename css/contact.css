@@ -1,0 +1,71 @@
+.contact_details{
+    display: flex;
+}
+form{
+    font-weight: bold;
+
+}
+.heading{
+    width: 95%;
+    margin: auto;
+}
+.heading h3{
+    font-size: 30px;
+    margin: .5em 0;
+}
+.row{
+    margin: .5em;
+    padding: .5em;
+}
+.row textarea{
+    width: 58%;
+    height: auto;
+}
+.adjust{
+    margin-right: .7em;
+}
+.customer_details{
+    width: 100%;
+    padding: 2em;
+}
+.message{
+    display: flex;
+    flex-direction: row;
+}
+.button{
+    margin-left: 5em;
+}
+.button button{
+    padding: .5em 1em;
+    border-radius: 5px;
+    background-color: var(--primary);
+    color: white;
+}
+.options{
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1em;
+}
+.options img{
+    width: 5em;
+    height: auto;
+}
+.top, .bottom{
+    margin: 1em;
+}
+.map{
+    margin: 3em 0 0 0;
+}
+.map img{
+    height: 400px;
+    object-fit: cover;
+}
+footer{
+    margin-top: 0;
+}
+.icon{
+    font-size: 3em;
+    padding: .5em;
+}

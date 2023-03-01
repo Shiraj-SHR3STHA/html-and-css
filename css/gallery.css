@@ -1,0 +1,20 @@
+.main{
+    width: 90%;
+    margin: auto;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;
+}
+.container img{
+    border-radius: 5px;
+}
+.tab{
+    background-color: #fafafa;
+    border-radius: 5px;
+}
+.tab h3{
+    text-align: center;
+    margin: 1em 0;
+}

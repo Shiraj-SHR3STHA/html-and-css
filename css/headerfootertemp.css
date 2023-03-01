@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Inter&family=Lato&family=Libre+Baskerville&family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, .navbar, footer{
+    font-family: eb garmond;
+}
+:root{
+    --primary:#1473E6;
+}
+body{
+    font-size: 18px;
+    font-family: inter;
+}
+h2{
+    font-size: 30px;
+}
+img{
+    width: 100%;
+
+} 
+/* Navbar Start */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--primary);
+    align-items: center;
+
+}
+.logo{
+    width: 5em;
+    height: 5em;
+}
+.nav ul li{
+    display: inline-block;
+    /* padding: 1em;  */
+    margin-right: 1em;
+}
+.nav ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-size: 20px; 
+    padding: .5em;
+}
+.nav ul li a:hover{
+    color: black;
+    background: white;
+    border-radius: 10px;
+}
+/* Navbar end */
+
+/* Cover image start */
+.cover img{
+    height: 400px;
+    object-fit: cover;
+    
+}
+.cover{
+    position: relative;
+    margin-bottom: 3em;
+}
+.overlay{
+    height: 100%;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    opacity: 0.6;
+    width: 100%;
+}
+.cover h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    
+}
+/* Cover picture end */
+
+/* Footer start */
+footer{
+    margin-top: 2em;
+    padding: 1em;
+    background-color:var(--primary);
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+.footDescription{
+    width: 50%;
+    padding: 1em 7em 1em 1em;
+    text-align: justify;
+}
+.quickLiknk{
+    width: 18%;
+    text-align: center;
+}
+.quickLiknk li{
+    list-style: none;
+    padding: .2em;
+}
+.quickLiknk a{
+    text-decoration: none;
+    color: white;
+}
+.quickLiknk a:hover{
+    color: black;
+}
+.contacts{
+    width: 16%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.contacts li{
+    list-style: none;
+    padding: .2em;
+}
+.socialLinks{
+    width: 16%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.socialLinks i{
+    color: black;
+    margin: .5em 0;
+}
+
+/* Footer ends */

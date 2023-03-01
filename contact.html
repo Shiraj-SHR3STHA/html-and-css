@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/headerfootertemp.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <title>Contact</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <img src="images/logo.png" alt="logo">
+        </div>
+        <div class="nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="course.html">Course</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="cover">
+        <img src="images/contact.jpg" alt="">
+        <div class="overlay"></div>
+        <h1>Contact Us</h1>
+    </div>
+
+    <div class="contact_details">
+        <div class="customer_details">
+            <form >
+                <div class="heading">
+                    <h3>Send Us a Message</h3>
+                    <p>You can contact us via email. We will be availabe 24/7. You can also contact us using any methods given below or visit our office personally. </p>
+                </div>
+                <div class="row nameAndEmail">
+                    <label for="name" class="adjust">Name</label>
+                    <input type="text" name="name" placeholder="Name" >
+                    <label for="email">Email</label>
+                    <input type="email" name="email" placeholder="Email" >
+                </div>
+                <div class=" row subjectAndPhone">
+                    <label for="subject">Subject</label>
+                    <input type="text" name="subject" placeholder="Subject" >
+                    <label for="phone">Phone</label>
+                    <input type="number" name="phone" placeholder="Number" >
+                </div>
+                <div class="row message">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="" cols="30" rows="10" placeholder="Write your message"></textarea>
+                </div>
+                <div class="button">
+                    <button id="confirm">Submit</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="options">
+            <div class="address">
+                <div class="icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                </div>
+                <h3>Address</h3>
+                <p>Kathmandu, Nepal</p>
+            </div>
+            <div class="call">
+                <div class="icon">
+                    <i class="fa-solid fa-phone"></i>
+                </div>
+                <h3>Call Us</h3>
+                <p>015555555, 015555555</p>
+            </div>
+        
+        
+            <div class="email">
+               <div class="icon">
+                 <i class="fa-solid fa-envelope"></i>
+               </div>
+                <h3>Email</h3>
+                <p>info@abc.com.np</p>
+            </div>
+            <div class="opening">
+                <div class="icon">
+                    <i class="fa-solid fa-clock"></i>
+                </div>
+                <h3>Opening Hours</h3>
+                <p>6:30 am to 5 pm</p>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="map">
+        <img src="images/map.PNG" alt="">
+    </div>
+
+    <footer>
+        <div class="footDescription">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod dolorem unde, facere culpa, a ipsam inventore ex repellat cum repudiandae nihil nisi molestias voluptatibus sit mollitia, autem tenetur assumenda eligendi?
+        </div>
+        <div class="quickLiknk">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="course.html">Course</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="contacts">
+            <ul>
+                <li>Kathmandu, Nepal</li>
+                <li>01 5555555, 01 5555555</li>
+                <li>info@abc.com.np</li>
+            </ul>
+            
+        </div>
+        <div class="socialLinks">
+            <h3>Follow Us On</h3>
+            <a href="twitter.com"><i class="fa-brands fa-twitter"></i></a>
+            <a href="instagram.com"><i class="fa-brands fa-instagram"></i></a>
+            <a href="facebook.com"><i class="fa-brands fa-facebook"></i></a>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById("confirm").addEventListener("click", () =>{
+            var submit = confirm("Confirm Submit?");
+            console.log(submit);
+            if(submit){
+                alert("Message sent successful.");
+            }
+        })
+    </script>
+
+</body>
+</html>
